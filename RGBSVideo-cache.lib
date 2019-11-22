@@ -1,0 +1,374 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Crystal
+#
+DEF Device_Crystal Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "Device_Crystal" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Gary_Collection_152-3409
+#
+DEF Gary_Collection_152-3409 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "Gary_Collection_152-3409" 850 200 50 H V L CNN
+F2 "1523409" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/152-3409.pdf" 850 0 50 H I L CNN
+F4 "D-Sub Standard Connectors 9C R/A PCB RECPT" 850 -100 50 H I L CNN "Description"
+F5 "12.54" 850 -200 50 H I L CNN "Height"
+F6 "152-3409" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=152-3409" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Kobiconn" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "152-3409" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 1000 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 1000 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 1000 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 1000 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+X MH1 MH1 1000 -400 200 L 50 50 0 0 B
+X MH2 MH2 0 -500 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Gary_Collection_74LVC2G04GW,125
+#
+DEF Gary_Collection_74LVC2G04GW,125 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "Gary_Collection_74LVC2G04GW,125" 850 200 50 H V L CNN
+F2 "SOT65P210X110-6N" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74LVC2G04.pdf" 850 0 50 H I L CNN
+F4 "NEXPERIA - 74LVC2G04GW,125 - INVERTER GATE, 2 I/P, SC-88-6" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "Nexperia" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74LVC2G04GW,125" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74LVC2G04GW-G" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-74LVC2G04GW-G" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "8168804P" 850 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/8168804P" 850 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 0 -100 200 R 50 50 0 0 B
+X ~ 3 0 -200 200 R 50 50 0 0 B
+X ~ 4 1000 -200 200 L 50 50 0 0 B
+X ~ 5 1000 -100 200 L 50 50 0 0 B
+X ~ 6 1000 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Gary_Collection_AD723ARUZ
+#
+DEF Gary_Collection_AD723ARUZ U 0 10 Y Y 1 F N
+F0 "U" 1200 400 60 H V C CNN
+F1 "Gary_Collection_AD723ARUZ" 1200 300 60 H V C CNN
+F2 "RU_28" 1200 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RU_28
+ RU_28-M
+ RU_28-L
+$ENDFPLIST
+DRAW
+P 2 1 0 5 300 -1500 2100 -1500 N
+P 2 1 0 5 300 200 300 -1500 N
+P 2 1 0 5 2100 -1500 2100 200 N
+P 2 1 0 5 2100 200 300 200 N
+X STND 1 0 0 300 R 59 59 1 0 U
+X GT 10 0 -900 300 R 59 59 1 0 U
+X BT 11 0 -1000 300 R 59 59 1 0 U
+X TGND 12 0 -1100 300 R 59 59 1 0 U
+X DVDD 13 0 -1200 300 R 59 59 1 0 W
+X DGND 14 0 -1300 300 R 59 59 1 0 U
+X HSYNC 15 2400 -1300 300 L 59 59 1 0 U
+X VSYNC 16 2400 -1200 300 L 59 59 1 0 U
+X EP 17 2400 -1100 300 L 59 59 1 0 U
+X TVDET 18 2400 -1000 300 L 59 59 1 0 U
+X CVSET 19 2400 -900 300 L 59 59 1 0 U
+X SA 2 0 -100 300 R 59 59 1 0 U
+X CV 20 2400 -800 300 L 59 59 1 0 U
+X YTRAP 21 2400 -700 300 L 59 59 1 0 U
+X AVDD 22 2400 -600 300 L 59 59 1 0 W
+X C 23 2400 -500 300 L 59 59 1 0 U
+X CSET 24 2400 -400 300 L 59 59 1 0 U
+X AVDD1 25 2400 -300 300 L 59 59 1 0 W
+X Y 26 2400 -200 300 L 59 59 1 0 U
+X YSET 27 2400 -100 300 L 59 59 1 0 U
+X AGND 28 2400 0 300 L 59 59 1 0 U
+X CE 3 0 -200 300 R 59 59 1 0 U
+X TERM 4 0 -300 300 R 59 59 1 0 U
+X RIN 5 0 -400 300 R 59 59 1 0 U
+X GIN 6 0 -500 300 R 59 59 1 0 U
+X BIN 7 0 -600 300 R 59 59 1 0 U
+X AGND 8 0 -700 300 R 59 59 1 0 U
+X RT 9 0 -800 300 R 59 59 1 0 U
+ENDDRAW
+ENDDEF
+#
+# Gary_Collection_BLM18AG102SZ1D
+#
+DEF Gary_Collection_BLM18AG102SZ1D FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "Gary_Collection_BLM18AG102SZ1D" 650 200 50 H V L CNN
+F2 "BEADC1608X95N" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/BLM18AG102SZ1D.pdf" 650 0 50 H I L CNN
+F4 "Ferrite Beads 0603 1000ohms 400mA Auto Infotainment" 650 -100 50 H I L CNN "Description"
+F5 "0.95" 650 -200 50 H I L CNN "Height"
+F6 "81-BLM18AG102SZ1D" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-BLM18AG102SZ1D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BLM18AG102SZ1D" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Gary_Collection_MD-40FC
+#
+DEF Gary_Collection_MD-40FC J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "Gary_Collection_MD-40FC" 850 200 50 H V L CNN
+F2 "MD40FC" 850 100 50 H I L CNN
+F3 "https://www.cui.com/product/resource/md-fc.pdf" 850 0 50 H I L CNN
+F4 "DIN Connectors mini-DIN, 4P plug, rt, through hole, full shield w/ ferrite filter" 850 -100 50 H I L CNN "Description"
+F5 "13.2" 850 -200 50 H I L CNN "Height"
+F6 "CUI" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MD-40FC" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-MD-40FC" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=490-MD-40FC" 850 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 1000 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 1000 -100 200 L 50 50 0 0 B
+X MH1 MH1 0 -200 200 R 50 50 0 0 B
+X MH2 MH2 1000 -200 200 L 50 50 0 0 B
+X MH3 MH3 0 -300 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Gary_Collection_PJRAN1X1U03AUX
+#
+DEF Gary_Collection_PJRAN1X1U03AUX J 0 30 Y Y 1 F N
+F0 "J" 1050 300 50 H V L CNN
+F1 "Gary_Collection_PJRAN1X1U03AUX" 1050 200 50 H V L CNN
+F2 "PJRAN1X1U03AUX" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PJRAN1X1U03AUX.pdf" 1050 0 50 H I L CNN
+F4 "RCA Phono Connectors 1 POS RA PHONO JACK" 1050 -100 50 H I L CNN "Description"
+F5 "13" 1050 -200 50 H I L CNN "Height"
+F6 "502-PJRAN1X1U03AUX" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U03AUX" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Switchcraft" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PJRAN1X1U03AUX" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X SLEEVE 1 0 0 200 R 50 50 0 0 B
+X TIP 2 1200 0 200 L 50 50 0 0 B
+X SHUNT 3 0 -100 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_2_Bridged
+#
+DEF Jumper_SolderJumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+S -20 20 20 -20 0 1 0 F
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Barrel-Power-Connectors_PJ-102A
+#
+DEF dk_Barrel-Power-Connectors_PJ-102A J 0 40 Y Y 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "dk_Barrel-Power-Connectors_PJ-102A" 0 -250 50 H V C CNN
+F2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" 200 200 60 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" 200 300 60 H I L CNN
+F4 "CP-102A-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "PJ-102A" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Barrel - Power Connectors" 200 700 60 H I L CNN "Family"
+F8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN PWR JACK 2X5.5MM SOLDER" 200 1000 60 H I L CNN "Description"
+F11 "CUI Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+A -175 0 25 901 -901 0 1 0 N -175 25 -175 -25
+S -25 50 0 -50 0 1 0 N
+P 2 0 1 0 -25 -25 -175 -25 N
+P 2 0 1 0 -25 25 -175 25 N
+P 3 0 1 0 0 -100 -50 -100 -100 -100 N
+P 4 0 1 0 0 -200 -150 -200 -200 -150 -250 -200 N
+P 5 0 1 0 -100 -100 -125 -100 -100 -150 -75 -100 -100 -100 N
+X ~ 1 100 0 100 L 50 50 1 1 P
+X ~ 2 100 -200 100 L 50 50 1 1 P
+X ~ 3 100 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pspice_INDUCTOR
+#
+DEF pspice_INDUCTOR L 0 0 N Y 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "pspice_INDUCTOR" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+X 1 1 -250 0 50 R 30 30 1 1 I
+X 2 2 250 0 50 L 30 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
