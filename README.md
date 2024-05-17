@@ -8,10 +8,10 @@ This project works fine, it's an easy way to get SVideo from your Amiga.
 Be aware there are no buffers between the Amiga and video encoder.  This is a point of failure and I know of one video encoder that has failed because of it.  
 In an ideal world I'd update it to have a video amplifier in between to protect both the Amiga and the encoder but with other open source alternatives (especially RGB2HDMI) now available there is very little point pursuing further development.  It may be of use for someone to incorporate into other projects.
 If you do use this in a derivative project please give credit and make it open source.
+Note the new license
+
+Readme
 ----------------------------------------------------
-
-
-I have decided to opensource the Red Keg Retro RGB to SVideo converter.
 Licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (https://ohwr.org/)
 Please be aware that some of the footprints may not be open source even though they are public domain.
 
