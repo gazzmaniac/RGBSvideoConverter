@@ -1,8 +1,18 @@
 # RGBSvideoConverter
 RGB to SVideo converter for Amiga computers
 
+
+Comments May 2024
+----------------------------------------------------
+This project works fine, it's an easy way to get SVideo from your Amiga.
+Be aware there are no buffers between the Amiga and video encoder.  This is a point of failure and I know of one video encoder that has failed because of it.  
+In an ideal world I'd update it to have a video amplifier in between to protect both the Amiga and the encoder but with other open source alternatives (especially RGB2HDMI) now available there is very little point pursuing further development.  It may be of use for someone to incorporate into other projects.
+If you do use this in a derivative project please give credit and make it open source.
+----------------------------------------------------
+
+
 I have decided to opensource the Red Keg Retro RGB to SVideo converter.
-Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
+Licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (https://ohwr.org/)
 Please be aware that some of the footprints may not be open source even though they are public domain.
 
 This device is based around the AD723ARUZ PAL encoder.  It converts 15 kHz RGB signal to SVideo and Composite.  It is designed for and tested with the Amiga series of computers however it should work with other machines that output a 15 kHz RGB signal.  The circuit is substantially based on the examples given in the AD732ARUZ data sheet.
